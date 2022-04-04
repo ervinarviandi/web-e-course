@@ -1,0 +1,425 @@
+/* body {
+  background-image: url(img/paterns.png);
+} */
+.navbar-brand {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-nav {
+  background-color: #a06b9a;
+}
+
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link:hover {
+  color: #ffc300;
+}
+
+.navbar-nav .tombol {
+  border-radius: 25px 25px;
+  /* background-color: #ffc300; */
+  color: #fff !important;
+  border: 2px solid #fff;
+}
+
+/* .navbar-nav button {
+  border-radius: 25px 25px;
+  color: #fff;
+} */
+
+.navbar-nav .tombol:hover {
+  background-color: #ffa3af;
+  color: #fff;
+}
+
+.navbar.scrolled {
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px -10px 30px #666;
+}
+
+.navbar.scrolled a.nav-link {
+  color: #666;
+}
+/* jumbotron */
+.main-biru {
+  /* background-color: #8d9ec6; */
+  background-image: linear-gradient(-90deg, #a06b9a, #c599c0);
+  /* background-image: url(img/Hero-Page-web-2-3.jpg); */
+  color: white;
+  height: 800;
+  padding-top: 2px;
+}
+
+.main-biru h2 {
+  font-weight: 400;
+  padding-top: 40px;
+  color: #ffd639;
+}
+
+.main-biru h3 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 46px;
+  color: #fff;
+}
+
+.main-biru h3 span {
+  /* color: #fbaf00; */
+  color: #ffa3af;
+  font-weight: 700;
+}
+
+.main-biru p {
+  color: #fff;
+  font-family: "heebo", sans-serif;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+/* Wrapper */
+.wrapper {
+  margin-top: 120px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.wrapper h3 {
+  font-size: 52px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.wrapper p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+.wrapper .tombol {
+  border-radius: 25px;
+  background-color: #a06b9a;
+  color: #fff !important;
+}
+
+.wrapper .tombol:hover {
+  background-color: #ffc300;
+  color: #fff;
+}
+/* Akhir wrapper */
+
+.star {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90%;
+  padding-top: 20px;
+}
+
+button {
+  font-family: "Heebo", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.checked {
+  color: orange;
+}
+.main-biru button {
+  border-radius: 25px 25px;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main-biru button:hover {
+  background-color: #ffa3af;
+  color: #fff;
+}
+
+.main-biru button.btn-transparents {
+  border: 2px solid white;
+}
+
+#beli {
+  padding-top: 40px;
+  background-color: #2e3649;
+  color: #fff;
+}
+
+.col {
+  padding-bottom: 50px;
+}
+
+#beli .card {
+  border-radius: 25px 25px;
+  background-color: #8d9ec6;
+  /* text-align: center; */
+  color: #fff;
+}
+
+#beli .card img {
+  justify-items: left;
+  margin-left: 50px;
+  /* position: relative; */
+}
+
+#beli .card h5 {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#beli .card p {
+  text-align: left !important;
+  font-size: 32px;
+}
+
+#beli .card button {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  width: 80%;
+}
+
+#beli .tombol {
+}
+
+#beli .card p i {
+  color: #ffa3af;
+  font-size: 32px;
+}
+
+@media (min-width: 768px) {
+  .main-biru h3 {
+    font-weight: 100;
+    /* display: none !important; */
+  }
+
+  .wrapper {
+    text-align: left !important;
+  }
+
+  img {
+    max-width: 400%;
+    max-height: 150%;
+    min-width: 100%;
+    image-resolution: 300dpi;
+  }
+
+  .workingspace {
+    text-align: center;
+    padding-bottom: 20px;
+    justify-content: center !important;
+  }
+
+  .workingspace .tombol {
+    text-align: center;
+  }
+
+  .wrapper img {
+    justify-items: left;
+    margin-left: 70px;
+  }
+}
+
+.contact-content {
+  background-color: #8d9ec6;
+}
+
+@media (max-width: 390px) {
+  .main-biru img {
+    display: none !important;
+  }
+
+  .main-biru button {
+    display: grid;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+  }
+
+  .contact-content img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .star {
+    padding-top: 10px;
+  }
+
+  .workingspace {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+  .workingspace h3 {
+    text-align: center;
+  }
+
+  .workingspace p {
+    text-align: center;
+  }
+
+  .workingspace a {
+    text-align: center !important;
+    justify-content: center;
+  }
+
+  .wrapper img {
+    justify-items: left;
+    margin-left: 70px;
+  }
+}
+
+#karya .card {
+  box-shadow: 4px 4px 4px 0.6px grey;
+  border-radius: 25px 25px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#karya .card img {
+  margin-top: -50px;
+}
+
+#karya h2 {
+  font-size: 700;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.card {
+  border-style: none !important;
+  padding-top: 40px;
+}
+
+.card img {
+  border-radius: 25px 25px;
+}
+
+.card p {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.card button {
+  border-radius: 25px 25px;
+  background-color: #a06b9a;
+  color: #fff;
+  border-style: none;
+}
+
+.card button:hover {
+  background-color: #ffd639;
+  color: #ffffff;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+section hr {
+  border: 3px solid rgb(255, 255, 255);
+  margin: auto;
+  width: 10%;
+}
+
+section .pertanyaan {
+  height: 100vh;
+}
+
+.contact-content i {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* working space */
+.workingspace {
+  margin-top: 120px;
+  text-align: left;
+  /* background-image: url(img/paterns.png); */
+  background-color: #ffffff;
+  padding-top: 30px;
+}
+
+.workingspace h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.workingspace p {
+  font-size: 18px;
+  color: #8d9ec6;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+.workingspace img {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.workingspace .tombol {
+  border-radius: 25px 25px;
+  background-color: #a06b9a;
+  color: #fff !important;
+}
+
+.workingspace .tombol:hover {
+  background-color: #ffa3af;
+  color: #fff !important;
+}
+/* Akhir workingspace */
+
+/* Card 2 */
+.card-2 {
+  background-image: linear-gradient(-90deg, #ffebff, #f8c6f8);
+  border-radius: 25px 25px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.card-2 h5 {
+  color: #e71da3;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-2 .tombol {
+  border-radius: 25px 25px;
+  background-color: #a06b9a;
+  color: #fff !important;
+}
+
+.card-2 .tombol:hover {
+  background-color: #ffa3af;
+  color: #fff !important;
+}
+/* akhir card-2 */
+
+.contact-content {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
